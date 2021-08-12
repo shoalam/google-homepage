@@ -21,6 +21,7 @@ input:focus, button:focus{
 body{
      font-family: arial, sans-serif;
      font-size: 14px;
+     overflow: hidden;
 }
 
 .d-none{
@@ -53,8 +54,11 @@ body{
     text-decoration: underline;
 }
 
+.header .nav .apps-img-wrapper{
+    display: flex;
+}
 .header .nav a .apps-img{
-    width: 32px;
+    width: 24px;
     height: auto;
 }
 
@@ -74,7 +78,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 82vh;
+    height: 83vh;
     gap: 30px;
     padding: 0 20px;
 }
